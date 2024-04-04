@@ -2,7 +2,7 @@
 const RightSideNavbar = () => {
     return (
         <div>
-            <h3 className="text-2xl">i am from right side navbar</h3>
+            <h3 className="text-xl">i am from right side navbar</h3>
         </div>
     );
 };

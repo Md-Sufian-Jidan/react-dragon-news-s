@@ -1,14 +1,12 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
-import Navbar from './Layouts/Navbar/Navbar'
 
 function App() {
 
   return (
-    <>
-    <Navbar />
-      <Outlet/>
-    </>
+    <div className='max-w-6xl mx-auto font-poppins'> 
+      <Outlet />
+    </div>
   )
 }
 
