@@ -12,7 +12,7 @@ const Home = () => {
             <div className='grid md:grid-cols-4 gap-6'>
                 <div className='border'><LeftSideNavbar /></div>
                 <div className='border md:col-span-2'>news coming soon...</div>
-                <div className='border'><RightSideNavbar /></div>
+                <div className='border p-2'><RightSideNavbar /></div>
             </div>
         </div>
     );
